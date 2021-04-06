@@ -6,7 +6,7 @@
   <link href="http://fushaoji.github.io/atom.xml" rel="self"/>
   
   <link href="http://fushaoji.github.io/"/>
-  <updated>2021-03-25T11:38:05.699Z</updated>
+  <updated>2021-04-06T03:49:55.991Z</updated>
   <id>http://fushaoji.github.io/</id>
   
   <author>
@@ -17,135 +17,25 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>数学知识（二）</title>
-    <link href="http://fushaoji.github.io/year/032515.html"/>
-    <id>http://fushaoji.github.io/year/032515.html</id>
-    <published>2021-03-25T11:29:10.000Z</published>
-    <updated>2021-03-25T11:38:05.699Z</updated>
+    <title>ACM-ICPC算法修炼秘籍</title>
+    <link href="http://fushaoji.github.io/year/040630.html"/>
+    <id>http://fushaoji.github.io/year/040630.html</id>
+    <published>2021-04-06T02:14:00.000Z</published>
+    <updated>2021-04-06T03:49:55.991Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;组合数I&quot;&gt;&lt;a href=&quot;#组合数I&quot; class=&quot;headerlink&quot; title=&quot;组合数I&quot;&gt;&lt;/a&gt;组合数I&lt;/h1&gt;&lt;pre class=&quot; language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span</summary>
+    <summary type="html">&lt;h1 id=&quot;第一章-基础算法&quot;&gt;&lt;a href=&quot;#第一章-基础算法&quot; class=&quot;headerlink&quot; title=&quot;第一章 基础算法&quot;&gt;&lt;/a&gt;第一章 基础算法&lt;/h1&gt;&lt;h2 id=&quot;排序&quot;&gt;&lt;a href=&quot;#排序&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
-    <category term="ACM" scheme="http://fushaoji.github.io/categories/ACM/"/>
+    <category term="蒟蒻选手的自我修养" scheme="http://fushaoji.github.io/categories/%E8%92%9F%E8%92%BB%E9%80%89%E6%89%8B%E7%9A%84%E8%87%AA%E6%88%91%E4%BF%AE%E5%85%BB/"/>
     
-    
-    <category term="模板" scheme="http://fushaoji.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="数学" scheme="http://fushaoji.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>拓扑排序</title>
-    <link href="http://fushaoji.github.io/year/032314.html"/>
-    <id>http://fushaoji.github.io/year/032314.html</id>
-    <published>2021-03-23T07:05:00.000Z</published>
-    <updated>2021-03-23T07:07:42.418Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;拓扑排序&quot;&gt;&lt;a href=&quot;#拓扑排序&quot; class=&quot;headerlink&quot; title=&quot;拓扑排序&quot;&gt;&lt;/a&gt;拓扑排序&lt;/h2&gt;&lt;pre class=&quot; language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="ACM" scheme="http://fushaoji.github.io/categories/ACM/"/>
-    
-    
-    <category term="模板" scheme="http://fushaoji.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="图论" scheme="http://fushaoji.github.io/tags/%E5%9B%BE%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>最短路</title>
-    <link href="http://fushaoji.github.io/year/032313.html"/>
-    <id>http://fushaoji.github.io/year/032313.html</id>
-    <published>2021-03-23T06:50:00.000Z</published>
-    <updated>2021-03-23T13:11:23.344Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Dijkstra&quot;&gt;&lt;a href=&quot;#Dijkstra&quot; class=&quot;headerlink&quot; title=&quot;Dijkstra&quot;&gt;&lt;/a&gt;Dijkstra&lt;/h1&gt;&lt;h2 id=&quot;朴素版Dijkstra&quot;&gt;&lt;a href=&quot;#朴素版Dijkstra&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="ACM" scheme="http://fushaoji.github.io/categories/ACM/"/>
-    
-    
-    <category term="模板" scheme="http://fushaoji.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="图论" scheme="http://fushaoji.github.io/tags/%E5%9B%BE%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>手写堆</title>
-    <link href="http://fushaoji.github.io/year/032312.html"/>
-    <id>http://fushaoji.github.io/year/032312.html</id>
-    <published>2021-03-23T06:33:00.000Z</published>
-    <updated>2021-03-23T06:36:02.606Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;小根堆&quot;&gt;&lt;a href=&quot;#小根堆&quot; class=&quot;headerlink&quot; title=&quot;小根堆&quot;&gt;&lt;/a&gt;小根堆&lt;/h2&gt;&lt;pre class=&quot; language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="ACM" scheme="http://fushaoji.github.io/categories/ACM/"/>
-    
-    
-    <category term="数据结构" scheme="http://fushaoji.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    <category term="模板" scheme="http://fushaoji.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>二叉树的建立</title>
-    <link href="http://fushaoji.github.io/year/032311.html"/>
-    <id>http://fushaoji.github.io/year/032311.html</id>
-    <published>2021-03-23T01:50:00.000Z</published>
-    <updated>2021-03-23T01:57:36.683Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;给前序和中序建立二叉树&quot;&gt;&lt;a href=&quot;#给前序和中序建立二叉树&quot; class=&quot;headerlink&quot; title=&quot;给前序和中序建立二叉树&quot;&gt;&lt;/a&gt;给前序和中序建立二叉树&lt;/h2&gt;&lt;pre class=&quot; language-cpp&quot;&gt;&lt;code</summary>
-        
-      
-    
-    
-    
-    <category term="ACM" scheme="http://fushaoji.github.io/categories/ACM/"/>
-    
-    
-    <category term="数据结构" scheme="http://fushaoji.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
     <category term="模板" scheme="http://fushaoji.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
     
@@ -156,7 +46,7 @@
     <link href="http://fushaoji.github.io/year/031910.html"/>
     <id>http://fushaoji.github.io/year/031910.html</id>
     <published>2021-03-18T17:41:00.000Z</published>
-    <updated>2021-03-18T17:49:08.712Z</updated>
+    <updated>2021-03-28T16:03:47.744Z</updated>
     
     
       
@@ -169,62 +59,10 @@
     
     
     
-    <category term="ACM" scheme="http://fushaoji.github.io/categories/ACM/"/>
+    <category term="ACM程序实训2作业题" scheme="http://fushaoji.github.io/categories/ACM%E7%A8%8B%E5%BA%8F%E5%AE%9E%E8%AE%AD2%E4%BD%9C%E4%B8%9A%E9%A2%98/"/>
     
     
     <category term="基础题" scheme="http://fushaoji.github.io/tags/%E5%9F%BA%E7%A1%80%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>C++STL用法大全</title>
-    <link href="http://fushaoji.github.io/year/03189.html"/>
-    <id>http://fushaoji.github.io/year/03189.html</id>
-    <published>2021-03-18T11:38:00.000Z</published>
-    <updated>2021-03-18T17:38:16.184Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;vector&quot;&gt;&lt;a href=&quot;#vector&quot; class=&quot;headerlink&quot; title=&quot;vector&quot;&gt;&lt;/a&gt;vector&lt;/h1&gt;&lt;h1 id=&quot;stack&quot;&gt;&lt;a href=&quot;#stack&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="编程语言" scheme="http://fushaoji.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
-    
-    
-    <category term="C++" scheme="http://fushaoji.github.io/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数学知识（一）</title>
-    <link href="http://fushaoji.github.io/year/03188.html"/>
-    <id>http://fushaoji.github.io/year/03188.html</id>
-    <published>2021-03-18T09:15:00.000Z</published>
-    <updated>2021-03-18T09:39:00.849Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;质数&quot;&gt;&lt;a href=&quot;#质数&quot; class=&quot;headerlink&quot; title=&quot;质数&quot;&gt;&lt;/a&gt;质数&lt;/h1&gt;&lt;h2 id=&quot;试除法判断质数&quot;&gt;&lt;a href=&quot;#试除法判断质数&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="ACM" scheme="http://fushaoji.github.io/categories/ACM/"/>
-    
-    
-    <category term="模板" scheme="http://fushaoji.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="数学" scheme="http://fushaoji.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
@@ -233,7 +71,7 @@
     <link href="http://fushaoji.github.io/year/03187.html"/>
     <id>http://fushaoji.github.io/year/03187.html</id>
     <published>2021-03-18T08:48:00.000Z</published>
-    <updated>2021-03-25T11:39:28.152Z</updated>
+    <updated>2021-04-06T03:24:43.895Z</updated>
     
     
       
@@ -246,39 +84,10 @@
     
     
     
-    <category term="ACM" scheme="http://fushaoji.github.io/categories/ACM/"/>
-    
-    <category term="ICPC解题报告" scheme="http://fushaoji.github.io/categories/ACM/ICPC%E8%A7%A3%E9%A2%98%E6%8A%A5%E5%91%8A/"/>
+    <category term="蒟蒻选手的自我修养" scheme="http://fushaoji.github.io/categories/%E8%92%9F%E8%92%BB%E9%80%89%E6%89%8B%E7%9A%84%E8%87%AA%E6%88%91%E4%BF%AE%E5%85%BB/"/>
     
     
     <category term="动态规划" scheme="http://fushaoji.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>树形dp</title>
-    <link href="http://fushaoji.github.io/year/03186.html"/>
-    <id>http://fushaoji.github.io/year/03186.html</id>
-    <published>2021-03-18T08:33:00.000Z</published>
-    <updated>2021-03-18T08:40:41.008Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;基础树形dp&quot;&gt;&lt;a href=&quot;#基础树形dp&quot; class=&quot;headerlink&quot; title=&quot;基础树形dp&quot;&gt;&lt;/a&gt;基础树形dp&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="ACM" scheme="http://fushaoji.github.io/categories/ACM/"/>
-    
-    
-    <category term="动态规划" scheme="http://fushaoji.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
-    
-    <category term="模板" scheme="http://fushaoji.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
     
   </entry>
   
@@ -287,7 +96,7 @@
     <link href="http://fushaoji.github.io/year/03173.html"/>
     <id>http://fushaoji.github.io/year/03173.html</id>
     <published>2021-03-17T08:06:47.035Z</published>
-    <updated>2021-03-18T17:43:45.632Z</updated>
+    <updated>2021-03-28T16:04:02.687Z</updated>
     
     
       
@@ -300,7 +109,7 @@
     
     
     
-    <category term="ACM" scheme="http://fushaoji.github.io/categories/ACM/"/>
+    <category term="ACM程序实训2作业题" scheme="http://fushaoji.github.io/categories/ACM%E7%A8%8B%E5%BA%8F%E5%AE%9E%E8%AE%AD2%E4%BD%9C%E4%B8%9A%E9%A2%98/"/>
     
     
     <category term="模拟" scheme="http://fushaoji.github.io/tags/%E6%A8%A1%E6%8B%9F/"/>
@@ -312,7 +121,7 @@
     <link href="http://fushaoji.github.io/year/03174.html"/>
     <id>http://fushaoji.github.io/year/03174.html</id>
     <published>2021-03-17T08:06:47.023Z</published>
-    <updated>2021-03-17T12:04:43.238Z</updated>
+    <updated>2021-03-28T16:03:56.584Z</updated>
     
     
       
@@ -325,7 +134,7 @@
     
     
     
-    <category term="ACM" scheme="http://fushaoji.github.io/categories/ACM/"/>
+    <category term="ACM程序实训2作业题" scheme="http://fushaoji.github.io/categories/ACM%E7%A8%8B%E5%BA%8F%E5%AE%9E%E8%AE%AD2%E4%BD%9C%E4%B8%9A%E9%A2%98/"/>
     
     
     <category term="模拟" scheme="http://fushaoji.github.io/tags/%E6%A8%A1%E6%8B%9F/"/>
@@ -337,7 +146,7 @@
     <link href="http://fushaoji.github.io/year/03175.html"/>
     <id>http://fushaoji.github.io/year/03175.html</id>
     <published>2021-03-17T07:21:00.000Z</published>
-    <updated>2021-03-25T11:39:35.957Z</updated>
+    <updated>2021-04-06T03:24:48.907Z</updated>
     
     
       
@@ -350,9 +159,7 @@
     
     
     
-    <category term="ACM" scheme="http://fushaoji.github.io/categories/ACM/"/>
-    
-    <category term="ICPC解题报告" scheme="http://fushaoji.github.io/categories/ACM/ICPC%E8%A7%A3%E9%A2%98%E6%8A%A5%E5%91%8A/"/>
+    <category term="蒟蒻选手的自我修养" scheme="http://fushaoji.github.io/categories/%E8%92%9F%E8%92%BB%E9%80%89%E6%89%8B%E7%9A%84%E8%87%AA%E6%88%91%E4%BF%AE%E5%85%BB/"/>
     
     
     <category term="三分" scheme="http://fushaoji.github.io/tags/%E4%B8%89%E5%88%86/"/>
@@ -366,7 +173,7 @@
     <link href="http://fushaoji.github.io/year/03122.html"/>
     <id>http://fushaoji.github.io/year/03122.html</id>
     <published>2021-03-12T03:34:40.000Z</published>
-    <updated>2021-03-17T12:04:39.842Z</updated>
+    <updated>2021-04-06T03:24:18.497Z</updated>
     
     
       
@@ -379,33 +186,10 @@
     
     
     
-    <category term="ACM" scheme="http://fushaoji.github.io/categories/ACM/"/>
+    <category term="蒟蒻选手的自我修养" scheme="http://fushaoji.github.io/categories/%E8%92%9F%E8%92%BB%E9%80%89%E6%89%8B%E7%9A%84%E8%87%AA%E6%88%91%E4%BF%AE%E5%85%BB/"/>
     
     
     <category term="并查集" scheme="http://fushaoji.github.io/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>网站测试</title>
-    <link href="http://fushaoji.github.io/year/03111.html"/>
-    <id>http://fushaoji.github.io/year/03111.html</id>
-    <published>2021-03-11T08:19:30.000Z</published>
-    <updated>2021-03-17T11:18:29.213Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;写作测试&quot;&gt;&lt;a href=&quot;#写作测试&quot; class=&quot;headerlink&quot; title=&quot;写作测试&quot;&gt;&lt;/a&gt;写作测试&lt;/h1&gt;&lt;h2 id=&quot;代码高亮&quot;&gt;&lt;a href=&quot;#代码高亮&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="杂文" scheme="http://fushaoji.github.io/tags/%E6%9D%82%E6%96%87/"/>
     
   </entry>
   
