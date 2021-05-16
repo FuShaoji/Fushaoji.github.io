@@ -6,7 +6,7 @@
   <link href="http://fushaoji.github.io/atom.xml" rel="self"/>
   
   <link href="http://fushaoji.github.io/"/>
-  <updated>2021-05-14T08:57:17.017Z</updated>
+  <updated>2021-05-14T16:39:53.847Z</updated>
   <id>http://fushaoji.github.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>ACM-ICPC题单（题解版）</title>
+    <title>ACM-ICPC计算几何题单</title>
+    <link href="http://fushaoji.github.io/year/05144.html"/>
+    <id>http://fushaoji.github.io/year/05144.html</id>
+    <published>2021-05-14T09:16:46.012Z</published>
+    <updated>2021-05-14T16:39:53.847Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;计算几何&quot;&gt;&lt;a href=&quot;#计算几何&quot; class=&quot;headerlink&quot; title=&quot;计算几何&quot;&gt;&lt;/a&gt;计算几何&lt;/h1&gt;&lt;h2 id=&quot;点和线&quot;&gt;&lt;a href=&quot;#点和线&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="算法竞赛" scheme="http://fushaoji.github.io/categories/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/"/>
+    
+    
+    <category term="算法题单" scheme="http://fushaoji.github.io/tags/%E7%AE%97%E6%B3%95%E9%A2%98%E5%8D%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ACM-ICPC数学题单</title>
     <link href="http://fushaoji.github.io/year/05144.html"/>
     <id>http://fushaoji.github.io/year/05144.html</id>
     <published>2021-05-14T08:51:04.881Z</published>
-    <updated>2021-05-14T08:57:17.017Z</updated>
+    <updated>2021-05-14T16:39:55.231Z</updated>
     
     
       
@@ -46,7 +71,7 @@
     <link href="http://fushaoji.github.io/year/05144.html"/>
     <id>http://fushaoji.github.io/year/05144.html</id>
     <published>2021-05-14T04:49:48.806Z</published>
-    <updated>2021-05-14T08:57:22.065Z</updated>
+    <updated>2021-05-14T16:42:13.615Z</updated>
     
     
       
@@ -96,7 +121,7 @@
     <link href="http://fushaoji.github.io/year/040630.html"/>
     <id>http://fushaoji.github.io/year/040630.html</id>
     <published>2021-04-06T02:14:00.000Z</published>
-    <updated>2021-05-14T08:55:56.580Z</updated>
+    <updated>2021-05-14T16:38:35.458Z</updated>
     
     
       
