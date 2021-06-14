@@ -432,8 +432,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E9%A2%98%E8%A7%A3/">
-                                <span class="chip bg-color">题解</span>
+                            <a href="/tags/%E7%AE%97%E6%B3%95/">
+                                <span class="chip bg-color">算法</span>
                             </a>
                         
                     </div>
@@ -464,21 +464,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-06-12
+                    2021-06-13
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    4.4k
+                    4.9k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    23 分
+                    26 分
                 </div>
                 
 
@@ -798,7 +798,7 @@ Node <span class="token function">get</span><span class="token punctuation">(</s
     <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre>
-<h1 id="第六周"><a href="#第六周" class="headerlink" title="第六周"></a>第六周</h1><h2 id="ZOJ1788-Quad-Trees"><a href="#ZOJ1788-Quad-Trees" class="headerlink" title="ZOJ1788 Quad Trees"></a><a target="_blank" rel="noopener" href="https://zoj.pintia.cn/problem-sets/91827364500/problems/91827365287">ZOJ1788 Quad Trees</a></h2><h3 id="题目大意-8"><a href="#题目大意-8" class="headerlink" title="题目大意"></a>题目大意</h3><p>给出一个$n*n$的01矩阵，每次可划分为四块，可分的为1，全0的为00，全1的为01<br>求四分树层次遍历得到的二级制串的十六进制表示</p>
+<h1 id="第六周"><a href="#第六周" class="headerlink" title="第六周"></a>第六周</h1><h2 id="ZOJ1788-Quad-Trees"><a href="#ZOJ1788-Quad-Trees" class="headerlink" title="ZOJ1788 Quad Trees"></a><a target="_blank" rel="noopener" href="https://zoj.pintia.cn/problem-sets/91827364500/problems/91827365287">ZOJ1788 Quad Trees</a></h2><h3 id="题目大意-8"><a href="#题目大意-8" class="headerlink" title="题目大意"></a>题目大意</h3><p>给出一个n*n的01矩阵，每次可划分为四块，可分的为1，全0的为00，全1的为01<br>求四分树层次遍历得到的二级制串的十六进制表示</p>
 <h3 id="解题思路-8"><a href="#解题思路-8" class="headerlink" title="解题思路"></a>解题思路</h3><p>直接dfs四分建树，在bfs输出，再将二进制转为10进制，在转为16进制即可</p>
 <h3 id="解题算法-8"><a href="#解题算法-8" class="headerlink" title="解题算法"></a>解题算法</h3><p>四分树 dfs建树 bfs层次遍历 进制的转换</p>
 <h3 id="解题代码-7"><a href="#解题代码-7" class="headerlink" title="解题代码"></a>解题代码</h3><pre class=" language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream></span></span>
@@ -886,10 +886,59 @@ string <span class="token function">bfs</span><span class="token punctuation">(<
     <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre>
-<h2 id="ZOJ1805-Squadtrees"><a href="#ZOJ1805-Squadtrees" class="headerlink" title="ZOJ1805 Squadtrees"></a><a target="_blank" rel="noopener" href="https://zoj.pintia.cn/problem-sets/91827364500/problems/91827365304">ZOJ1805 Squadtrees</a></h2><h1 id="第七周"><a href="#第七周" class="headerlink" title="第七周"></a>第七周</h1><h2 id="POJ3481-Double-Queue"><a href="#POJ3481-Double-Queue" class="headerlink" title="POJ3481 Double Queue"></a><a target="_blank" rel="noopener" href="http://poj.org/problem?id=3481">POJ3481 Double Queue</a></h2><h2 id="poj3580-SuperMemo"><a href="#poj3580-SuperMemo" class="headerlink" title="poj3580 SuperMemo"></a><a target="_blank" rel="noopener" href="http://poj.org/problem?id=3580">poj3580 SuperMemo</a></h2><h2 id="ZOJ3533-Gao-the-String-I"><a href="#ZOJ3533-Gao-the-String-I" class="headerlink" title="ZOJ3533 Gao the String I"></a><a target="_blank" rel="noopener" href="https://zoj.pintia.cn/problem-sets/91827364500/problems/91827368967">ZOJ3533 Gao the String I</a></h2><h3 id="题目大意-9"><a href="#题目大意-9" class="headerlink" title="题目大意"></a>题目大意</h3><p>给一个字符串，有四种操作<br>第一个是旋转区间$[a, b]$<br>第二个是修改某个字符<br>第三个是求以a开头的后缀和以b开头的后缀的最长公共前缀<br>第四个是求最长回文串</p>
-<h3 id="解题思路-9"><a href="#解题思路-9" class="headerlink" title="解题思路"></a>解题思路</h3><p>区间旋转是splay的经典操作，所以考虑splay，splay维护字符串哈希，lcp可以通过二分来确定长度，求最长回文串直接使用马拉车算法计算</p>
-<h3 id="解题算法-9"><a href="#解题算法-9" class="headerlink" title="解题算法"></a>解题算法</h3><p>字符串哈希 splay 马拉车算法</p>
+<h2 id="ZOJ1805-Squadtrees"><a href="#ZOJ1805-Squadtrees" class="headerlink" title="ZOJ1805 Squadtrees"></a><a target="_blank" rel="noopener" href="https://zoj.pintia.cn/problem-sets/91827364500/problems/91827365304">ZOJ1805 Squadtrees</a></h2><h3 id="题目大意-9"><a href="#题目大意-9" class="headerlink" title="题目大意"></a>题目大意</h3><p>给一个n*m的01矩阵，把他补成可以四分的01矩阵。<br>普通四分树：非4全0或全1的可以分的节点有四个儿子，全0的不可分没有儿子，全1的不可分没有儿子<br>压缩四分树：同一层作为根节点的子树结构一样的可以合并<br>求普通四分树的节点数和压缩四分树的节点数。</p>
+<h3 id="解题思路-9"><a href="#解题思路-9" class="headerlink" title="解题思路"></a>解题思路</h3><p>这里可以不用建树，直接dfs后序遍历统计普通四分树和压缩四分树的节点数就可以了<br>因为是后序遍历，所以儿子会先被处理，如果一个节点的儿子和前面某个节点的儿子结构一样，就可以合并不用创造新的节点</p>
+<h3 id="解题算法-9"><a href="#解题算法-9" class="headerlink" title="解题算法"></a>解题算法</h3><p>四分树 dfs后序遍历</p>
 <h3 id="解题代码-8"><a href="#解题代码-8" class="headerlink" title="解题代码"></a>解题代码</h3><pre class=" language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream></span></span>
+<span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;cstring></span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token keyword">int</span> N <span class="token operator">=</span> <span class="token number">130</span><span class="token punctuation">,</span> M <span class="token operator">=</span> <span class="token number">1e5</span><span class="token punctuation">;</span>
+<span class="token keyword">struct</span> Node <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> s1<span class="token punctuation">,</span> s2<span class="token punctuation">,</span> s3<span class="token punctuation">,</span> s4<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>tr<span class="token punctuation">[</span>M<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> n<span class="token punctuation">,</span> m<span class="token punctuation">,</span> idx<span class="token punctuation">;</span>
+<span class="token keyword">int</span> ans1<span class="token punctuation">,</span> ans2<span class="token punctuation">;</span>
+<span class="token keyword">int</span> a<span class="token punctuation">[</span>N<span class="token punctuation">]</span><span class="token punctuation">[</span>N<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">dfs</span><span class="token punctuation">(</span><span class="token keyword">int</span> x<span class="token punctuation">,</span> <span class="token keyword">int</span> y<span class="token punctuation">,</span> <span class="token keyword">int</span> len<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> temp <span class="token operator">=</span> ans2<span class="token punctuation">;</span>
+    ans1<span class="token operator">++</span><span class="token punctuation">,</span> ans2<span class="token operator">++</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>len <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token keyword">return</span> a<span class="token punctuation">[</span>x<span class="token punctuation">]</span><span class="token punctuation">[</span>y<span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> t <span class="token operator">=</span> len <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> s1 <span class="token operator">=</span> <span class="token function">dfs</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">,</span> t<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> s2 <span class="token operator">=</span> <span class="token function">dfs</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y <span class="token operator">+</span> t<span class="token punctuation">,</span> t<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> s3 <span class="token operator">=</span> <span class="token function">dfs</span><span class="token punctuation">(</span>x <span class="token operator">+</span> t<span class="token punctuation">,</span> y<span class="token punctuation">,</span> t<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> s4 <span class="token operator">=</span> <span class="token function">dfs</span><span class="token punctuation">(</span>x <span class="token operator">+</span> t<span class="token punctuation">,</span> y <span class="token operator">+</span> t<span class="token punctuation">,</span> t<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>s1 <span class="token operator">==</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> s2 <span class="token operator">==</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> s3 <span class="token operator">==</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> s4 <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> ans1 <span class="token operator">-</span><span class="token operator">=</span> <span class="token number">4</span><span class="token punctuation">,</span> ans2 <span class="token operator">-</span><span class="token operator">=</span> <span class="token number">4</span><span class="token punctuation">;</span> <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>s1 <span class="token operator">==</span> <span class="token number">1</span> <span class="token operator">&amp;&amp;</span> s2 <span class="token operator">==</span> <span class="token number">1</span> <span class="token operator">&amp;&amp;</span> s3 <span class="token operator">==</span> <span class="token number">1</span> <span class="token operator">&amp;&amp;</span> s4 <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> ans1 <span class="token operator">-</span><span class="token operator">=</span> <span class="token number">4</span><span class="token punctuation">,</span> ans2 <span class="token operator">-</span><span class="token operator">=</span> <span class="token number">4</span><span class="token punctuation">;</span> <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> idx<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>tr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>s1 <span class="token operator">==</span> s1 <span class="token operator">&amp;&amp;</span> tr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>s2 <span class="token operator">==</span> s2 <span class="token operator">&amp;&amp;</span> tr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>s3 <span class="token operator">==</span> s3 <span class="token operator">&amp;&amp;</span> tr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>s4 <span class="token operator">==</span> s4<span class="token punctuation">)</span> <span class="token punctuation">{</span> ans2 <span class="token operator">=</span> temp<span class="token punctuation">;</span> <span class="token keyword">return</span> i<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    tr<span class="token punctuation">[</span><span class="token operator">++</span>idx<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span>s1<span class="token punctuation">,</span> s2<span class="token punctuation">,</span> s3<span class="token punctuation">,</span> s4<span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> idx<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>cin <span class="token operator">>></span> n <span class="token operator">>></span> m <span class="token operator">&amp;&amp;</span> n <span class="token operator">&amp;&amp;</span> m<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">memset</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token keyword">sizeof</span> a<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        ans1 <span class="token operator">=</span> ans2 <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        idx <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            string s<span class="token punctuation">;</span> cin <span class="token operator">>></span> s<span class="token punctuation">;</span>
+            <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> m<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span> a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> s<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">-</span> <span class="token string">'0'</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        n <span class="token operator">=</span> <span class="token function">max</span><span class="token punctuation">(</span>n<span class="token punctuation">,</span> m<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> <span class="token number">7</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;=</span> <span class="token punctuation">(</span><span class="token number">1</span> <span class="token operator">&lt;&lt;</span> i<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> n <span class="token operator">=</span> <span class="token number">1</span> <span class="token operator">&lt;&lt;</span> i<span class="token punctuation">;</span> <span class="token keyword">break</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token function">dfs</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        cout <span class="token operator">&lt;&lt;</span> ans1 <span class="token operator">&lt;&lt;</span> <span class="token string">" "</span> <span class="token operator">&lt;&lt;</span> ans2 <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h1 id="第七周"><a href="#第七周" class="headerlink" title="第七周"></a>第七周</h1><h2 id="POJ3481-Double-Queue"><a href="#POJ3481-Double-Queue" class="headerlink" title="POJ3481 Double Queue"></a><a target="_blank" rel="noopener" href="http://poj.org/problem?id=3481">POJ3481 Double Queue</a></h2><h2 id="poj3580-SuperMemo"><a href="#poj3580-SuperMemo" class="headerlink" title="poj3580 SuperMemo"></a><a target="_blank" rel="noopener" href="http://poj.org/problem?id=3580">poj3580 SuperMemo</a></h2><h2 id="ZOJ3533-Gao-the-String-I"><a href="#ZOJ3533-Gao-the-String-I" class="headerlink" title="ZOJ3533 Gao the String I"></a><a target="_blank" rel="noopener" href="https://zoj.pintia.cn/problem-sets/91827364500/problems/91827368967">ZOJ3533 Gao the String I</a></h2><h3 id="题目大意-10"><a href="#题目大意-10" class="headerlink" title="题目大意"></a>题目大意</h3><p>给一个字符串，有四种操作<br>第一个是旋转区间$[a, b]$<br>第二个是修改某个字符<br>第三个是求以a开头的后缀和以b开头的后缀的最长公共前缀<br>第四个是求最长回文串</p>
+<h3 id="解题思路-10"><a href="#解题思路-10" class="headerlink" title="解题思路"></a>解题思路</h3><p>区间旋转是splay的经典操作，所以考虑splay，splay维护字符串哈希，lcp可以通过二分来确定长度，求最长回文串直接使用马拉车算法计算</p>
+<h3 id="解题算法-10"><a href="#解题算法-10" class="headerlink" title="解题算法"></a>解题算法</h3><p>字符串哈希 splay 马拉车算法</p>
+<h3 id="解题代码-9"><a href="#解题代码-9" class="headerlink" title="解题代码"></a>解题代码</h3><pre class=" language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream></span></span>
 <span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;cstring></span></span>
 <span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;vector></span></span>
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
@@ -1048,10 +1097,10 @@ string <span class="token function">bfs</span><span class="token punctuation">(<
     <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre>
-<h1 id="第八周"><a href="#第八周" class="headerlink" title="第八周"></a>第八周</h1><h2 id="ZOJ1610-Count-the-Colors"><a href="#ZOJ1610-Count-the-Colors" class="headerlink" title="ZOJ1610 Count the Colors"></a><a target="_blank" rel="noopener" href="https://zoj.pintia.cn/problem-sets/91827364500/problems/91827365109">ZOJ1610 Count the Colors</a></h2><h3 id="题目大意-10"><a href="#题目大意-10" class="headerlink" title="题目大意"></a>题目大意</h3><p>题意简化为线段涂色，涂n次，每次选择一个区间涂上一个颜色，问最后每种颜色有多少段</p>
-<h3 id="解题思路-10"><a href="#解题思路-10" class="headerlink" title="解题思路"></a>解题思路</h3><p>用线段树维护每段区间是什么颜色，线段树的一个结点表示一个区间，若这个区间的颜色数量<br>大于1就设为-1，否则设为该颜色。修改区间颜色时如果结点颜色不是-1则先下传颜色。<br>最后把所有结点的颜色下传到叶子结点，统计每个颜色有多少段即可</p>
-<h3 id="解题算法-10"><a href="#解题算法-10" class="headerlink" title="解题算法"></a>解题算法</h3><p>线段树</p>
-<h3 id="解题代码-9"><a href="#解题代码-9" class="headerlink" title="解题代码"></a>解题代码</h3><pre class=" language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream></span></span>
+<h1 id="第八周"><a href="#第八周" class="headerlink" title="第八周"></a>第八周</h1><h2 id="ZOJ1610-Count-the-Colors"><a href="#ZOJ1610-Count-the-Colors" class="headerlink" title="ZOJ1610 Count the Colors"></a><a target="_blank" rel="noopener" href="https://zoj.pintia.cn/problem-sets/91827364500/problems/91827365109">ZOJ1610 Count the Colors</a></h2><h3 id="题目大意-11"><a href="#题目大意-11" class="headerlink" title="题目大意"></a>题目大意</h3><p>题意简化为线段涂色，涂n次，每次选择一个区间涂上一个颜色，问最后每种颜色有多少段</p>
+<h3 id="解题思路-11"><a href="#解题思路-11" class="headerlink" title="解题思路"></a>解题思路</h3><p>用线段树维护每段区间是什么颜色，线段树的一个结点表示一个区间，若这个区间的颜色数量<br>大于1就设为-1，否则设为该颜色。修改区间颜色时如果结点颜色不是-1则先下传颜色。<br>最后把所有结点的颜色下传到叶子结点，统计每个颜色有多少段即可</p>
+<h3 id="解题算法-11"><a href="#解题算法-11" class="headerlink" title="解题算法"></a>解题算法</h3><p>线段树</p>
+<h3 id="解题代码-10"><a href="#解题代码-10" class="headerlink" title="解题代码"></a>解题代码</h3><pre class=" language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream></span></span>
 <span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;vector></span></span>
 <span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;map></span></span>
 <span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;cstring></span></span>
@@ -1108,10 +1157,10 @@ map<span class="token operator">&lt;</span><span class="token keyword">int</span
     <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre>
-<h1 id="第十一周"><a href="#第十一周" class="headerlink" title="第十一周"></a>第十一周</h1><h2 id="ZOJ2451-Minimizing-maximizer"><a href="#ZOJ2451-Minimizing-maximizer" class="headerlink" title="ZOJ2451 Minimizing maximizer"></a><a target="_blank" rel="noopener" href="https://zoj.pintia.cn/problem-sets/91827364500/problems/91827365950">ZOJ2451 Minimizing maximizer</a></h2><h3 id="题目大意-11"><a href="#题目大意-11" class="headerlink" title="题目大意"></a>题目大意</h3><p>给出m个排序器，删掉一些排序器也能将1到n排好序，一个排序器排序区间前面的排好了排序器才能正常工作。<br>问最少需要多少个排序器就可以将1到n排好序</p>
-<h3 id="解题思路-11"><a href="#解题思路-11" class="headerlink" title="解题思路"></a>解题思路</h3><p>记录排序到x最少需要多少个排序器，用线段树维护区间最小值<br>排序器排序区间为[l,r]时，查找排序到l到r-1最少需要排序器的数量，即在线段树上查找区间[l,r-1]的最小值<br>然后更新线段树r点的值，最终答案为排序到n的最小值 </p>
-<h3 id="解题算法-11"><a href="#解题算法-11" class="headerlink" title="解题算法"></a>解题算法</h3><p>线段树</p>
-<h3 id="解题代码-10"><a href="#解题代码-10" class="headerlink" title="解题代码"></a>解题代码</h3><pre class=" language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream></span></span>
+<h1 id="第十一周"><a href="#第十一周" class="headerlink" title="第十一周"></a>第十一周</h1><h2 id="ZOJ2451-Minimizing-maximizer"><a href="#ZOJ2451-Minimizing-maximizer" class="headerlink" title="ZOJ2451 Minimizing maximizer"></a><a target="_blank" rel="noopener" href="https://zoj.pintia.cn/problem-sets/91827364500/problems/91827365950">ZOJ2451 Minimizing maximizer</a></h2><h3 id="题目大意-12"><a href="#题目大意-12" class="headerlink" title="题目大意"></a>题目大意</h3><p>给出m个排序器，删掉一些排序器也能将1到n排好序，一个排序器排序区间前面的排好了排序器才能正常工作。<br>问最少需要多少个排序器就可以将1到n排好序</p>
+<h3 id="解题思路-12"><a href="#解题思路-12" class="headerlink" title="解题思路"></a>解题思路</h3><p>记录排序到x最少需要多少个排序器，用线段树维护区间最小值<br>排序器排序区间为[l,r]时，查找排序到l到r-1最少需要排序器的数量，即在线段树上查找区间[l,r-1]的最小值<br>然后更新线段树r点的值，最终答案为排序到n的最小值 </p>
+<h3 id="解题算法-12"><a href="#解题算法-12" class="headerlink" title="解题算法"></a>解题算法</h3><p>线段树</p>
+<h3 id="解题代码-11"><a href="#解题代码-11" class="headerlink" title="解题代码"></a>解题代码</h3><pre class=" language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream></span></span>
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
 <span class="token keyword">const</span> <span class="token keyword">int</span> N <span class="token operator">=</span> <span class="token number">5e4</span> <span class="token operator">+</span> <span class="token number">5</span><span class="token punctuation">,</span> inf <span class="token operator">=</span> <span class="token number">0x3f3f3f3f</span><span class="token punctuation">;</span>
 <span class="token keyword">struct</span> Node <span class="token punctuation">{</span>
@@ -1160,10 +1209,10 @@ map<span class="token operator">&lt;</span><span class="token keyword">int</span
     <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre>
-<h2 id="ZOJ2048-Swordfish"><a href="#ZOJ2048-Swordfish" class="headerlink" title="ZOJ2048 Swordfish"></a><a target="_blank" rel="noopener" href="https://zoj.pintia.cn/problem-sets/91827364500/problems/91827364702">ZOJ2048 Swordfish</a></h2><h3 id="题目大意-12"><a href="#题目大意-12" class="headerlink" title="题目大意"></a>题目大意</h3><p>题目给出n个点的坐标，问把着n个点连起来的最小距离是多少</p>
-<h3 id="解题思路-12"><a href="#解题思路-12" class="headerlink" title="解题思路"></a>解题思路</h3><p>建完全图跑克鲁斯卡尔算法即可 </p>
-<h3 id="解题算法-12"><a href="#解题算法-12" class="headerlink" title="解题算法"></a>解题算法</h3><p>最小生成树</p>
-<h3 id="解题代码-11"><a href="#解题代码-11" class="headerlink" title="解题代码"></a>解题代码</h3><pre class=" language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream></span></span>
+<h2 id="ZOJ2048-Swordfish"><a href="#ZOJ2048-Swordfish" class="headerlink" title="ZOJ2048 Swordfish"></a><a target="_blank" rel="noopener" href="https://zoj.pintia.cn/problem-sets/91827364500/problems/91827364702">ZOJ2048 Swordfish</a></h2><h3 id="题目大意-13"><a href="#题目大意-13" class="headerlink" title="题目大意"></a>题目大意</h3><p>题目给出n个点的坐标，问把着n个点连起来的最小距离是多少</p>
+<h3 id="解题思路-13"><a href="#解题思路-13" class="headerlink" title="解题思路"></a>解题思路</h3><p>建完全图跑克鲁斯卡尔算法即可 </p>
+<h3 id="解题算法-13"><a href="#解题算法-13" class="headerlink" title="解题算法"></a>解题算法</h3><p>最小生成树</p>
+<h3 id="解题代码-12"><a href="#解题代码-12" class="headerlink" title="解题代码"></a>解题代码</h3><pre class=" language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream></span></span>
 <span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;cmath></span></span>
 <span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;algorithm></span></span>
 <span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;functional></span></span>
@@ -1282,8 +1331,8 @@ pdd P<span class="token punctuation">[</span>N<span class="token punctuation">]<
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E9%A2%98%E8%A7%A3/">
-                                    <span class="chip bg-color">题解</span>
+                                <a href="/tags/%E7%AE%97%E6%B3%95/">
+                                    <span class="chip bg-color">算法</span>
                                 </a>
                             
                         </div>
@@ -1724,9 +1773,9 @@ pdd P<span class="token punctuation">[</span>N<span class="token punctuation">]<
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/55.jpg" class="responsive-img" alt="综合能力算法题单（目录版）">
+                        <img src="/medias/featureimages/33.jpg" class="responsive-img" alt="算法综合能力提高题单">
                         
-                        <span class="card-title">综合能力算法题单（目录版）</span>
+                        <span class="card-title">算法综合能力提高题单</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1754,8 +1803,8 @@ pdd P<span class="token punctuation">[</span>N<span class="token punctuation">]<
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E7%AE%97%E6%B3%95%E9%A2%98%E5%8D%95/">
-                        <span class="chip bg-color">算法题单</span>
+                    <a href="/tags/%E7%AE%97%E6%B3%95/">
+                        <span class="chip bg-color">算法</span>
                     </a>
                     
                 </div>
@@ -1804,8 +1853,8 @@ pdd P<span class="token punctuation">[</span>N<span class="token punctuation">]<
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E9%A2%98%E8%A7%A3/">
-                        <span class="chip bg-color">题解</span>
+                    <a href="/tags/%E7%AE%97%E6%B3%95/">
+                        <span class="chip bg-color">算法</span>
                     </a>
                     
                 </div>
@@ -1998,7 +2047,7 @@ pdd P<span class="token punctuation">[</span>N<span class="token punctuation">]<
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">36.7k</span>&nbsp;字
+                class="white-color">37.9k</span>&nbsp;字
             
             
             
